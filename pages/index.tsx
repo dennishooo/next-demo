@@ -59,6 +59,9 @@ export default function Home({
           ))}
         </ul>
       </section>
+      <Link href={"/items"}>
+        <h2 className={utilStyles.headingLg}>Items</h2>
+      </Link>
     </Layout>
   );
 }
