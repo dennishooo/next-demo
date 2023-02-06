@@ -190,3 +190,11 @@ prerender and generate html at each request
 ## Dynmic Routes
 
 ![how-to-dynamic-routes](img/how-to-dynamic-routes.png)
+
+## environemntal variables
+
+access through process.env
+
+default are only available in nodejs environment
+
+too expose to browser, have to prefix with NEXT_PUBLIC\_
