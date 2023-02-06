@@ -146,3 +146,47 @@ css module locally scope css at component level by automatically create unique c
 \_app.js, is a top-level react component
 
 global css affect all elements on the page
+
+utility-first CSS
+
+utility classes can be resued throughtout the application
+
+writing css selector rather than a method
+
+next js compiles css using postcss
+
+<br>
+
+### Pre-rendering
+
+default: next js prerenders every page `HTML` (純 react 無 pre-rendering)
+
+`hydration`: when page loaded by browser, `js` runs and makes it interactive
+
+![pre-rendering-next](img/pre-rendering-next.png)
+
+![no-pre-rendering-react](img/no-pre-rendering-react.png)
+
+## Static Generation
+
+html generate at build time
+
+![static-generation](img/static-generation.png)
+
+![static-generation-with-data](img/static-generation-with-data.png)
+
+`getStaticProps` runs at build time in production, run on every request in development
+
+It won’t even be included in the JS bundle for the browser
+
+## server-side rendering
+
+prerender and generate html at each request
+
+![server-side-rendering](img/server-side-rendering.png)
+
+`getStaticProps`
+
+## Dynmic Routes
+
+![how-to-dynamic-routes](img/how-to-dynamic-routes.png)
